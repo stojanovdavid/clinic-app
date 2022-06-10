@@ -19,17 +19,13 @@ After clicking on the button "Add new patient", we are given a modal with a form
 ![Screenshot_12](https://user-images.githubusercontent.com/90925461/172976014-34d32fc7-c6b8-4d2c-8162-47fb1f3ec80a.png)
 ![Screenshot_13](https://user-images.githubusercontent.com/90925461/172976069-8f75e0f7-2ec0-40b4-871e-8f722c3af15b.png)
 Then, by just clicking the "info" button, we get the info about the patient 
-![Screenshot_7](https://user-images.githubusercontent.com/90925461/172974722-0c4c18c8-ed2b-40e8-bd89-7aea63986084.png)
-
+![Screenshot_13](https://user-images.githubusercontent.com/90925461/172976187-3d34ec1c-11a4-429b-950c-1bcf7db60a47.png)
 Then follows the "Edit button where we can change the info about the patient" . In the following picture i will change his name 
-![Screenshot_7](https://user-images.githubusercontent.com/90925461/172974925-eff88e38-87ef-4deb-896f-99edddefdc2b.png)
-and after we hit "Update", his name will be changed
-![Screenshot_9](https://user-images.githubusercontent.com/90925461/172975007-2eaa5cf5-124d-4ec6-b750-30a37798320a.png)
-
+![Screenshot_15](https://user-images.githubusercontent.com/90925461/172976359-8caba32f-d87e-44bd-a3d4-5e01940cf14f.png)and after we hit "Update", his name will be changed
+![Screenshot_16](https://user-images.githubusercontent.com/90925461/172976369-5b6673ce-787b-43df-b3b0-2374b9867ed8.png)
 The final part of the crud is the "Delete" button
-![Screenshot_10](https://user-images.githubusercontent.com/90925461/172975171-b31ed933-486c-4758-b9e8-8db5b78ebbc1.png)
-![Screenshot_11](https://user-images.githubusercontent.com/90925461/172975182-03977243-31b1-4fc9-b25c-911c2e218946.png)
-
+![Screenshot_17](https://user-images.githubusercontent.com/90925461/172976460-93010a78-1037-4282-9f7f-640312bcc41d.png)
+![Screenshot_18](https://user-images.githubusercontent.com/90925461/172976476-e6ee3d84-60cb-4484-b442-3cdd87009eb1.png)
 In the navbar, we also have a search form where we can search patients by the email, for example:
 
 

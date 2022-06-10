@@ -1,19 +1,47 @@
 <?php
 include('./classes/patients.class.php');
-
+include('./includes/header.php');
 $patients = new Patient;
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-</head>
-<body>
-<table class="table table-dark">
+
+
+
+<button type="button" class="btn btn-primary" id="createPatient" data-bs-toggle="modal" data-bs-target="#createModal">Add new patient</button>
+<div class="modal fade" id="createModal" tabindex="-1" role="dialog" aria-labelledby="createModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form action="includes/create.inc.php" method="POST">
+                <div class="modal-body">
+                    <div class="info text-dark">
+                        <label for="">Name</label> <br>
+                        <input type="text" name="name" required> <br>
+                        <label for="">Email</label> <br>
+                        <input type="text" name="email" required> <br>
+                        <label for="">Phone</label> <br>
+                        <input type="text" name="phone" required> <br>
+                        <label for="">Adress</label> <br>
+                        <input type="text" name="adress" required> <br>
+                        <label for="">Medical condition</label> <br>
+                        <input type="text" name="condition" required> <br>
+                        <label for="">Bloodtype</label> <br>
+                        <input type="text" name="bloodtype" required> <br>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" name="submit" id="insertButton" class="btn btn-primary">Add patient</button>
+                </div>
+            </form>
+            </div>
+        </div>
+    </div>
+<table class="table table-dark mt-4">
   <thead>
     <tr>
       <th scope="col">ID</th>
@@ -134,8 +162,4 @@ $patients = new Patient;
   </tbody>
 </table>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-<script src="index.js"></script>
-
-</body>
-</html>
+<?php include('./includes/footer.php'); ?>

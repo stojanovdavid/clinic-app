@@ -3,7 +3,6 @@
 include('../classes/dbh.class.php');
 include('../classes/signup.class.php');
 
-
 if(isset($_POST['submit'])){
     $firstName = $_POST['fName'];
     $lastName = $_POST['lName'];

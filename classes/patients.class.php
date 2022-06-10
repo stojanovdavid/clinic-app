@@ -6,6 +6,25 @@ include('dbh.class.php');
 class Patient extends Dbh{
 
     
+    public function viewPatient($email){
+
+        $sql = "SELECT * FROM patients WHERE email = '$email' ";
+        $query = $this->connect()->query($sql);
+        $result = $query->fetch();
+        return $result;
+    }
+
+    public function createPatient($name, $email, $phone, $adress, $medical_condition, $bloodtype){
+        $sql = "INSERT INTO patients (name, email, phone, adress, medical_condition, bloodtype) VALUES (:name, :email, :phone, :adress, :medical_condition, :bloodtype)";
+        $stmt = $this->connect()->prepare($sql);
+        $stmt->bindParam(":name", $name);
+        $stmt->bindParam(":email", $email);
+        $stmt->bindParam(":phone", $phone);
+        $stmt->bindParam(":adress", $adress);
+        $stmt->bindParam(":medical_condition", $medical_condition);
+        $stmt->bindParam(":bloodtype", $bloodtype);
+        $stmt->execute();
+    }
 
 
     public function patientsInfo(){
@@ -35,5 +54,6 @@ class Patient extends Dbh{
         $stmt->bindParam(":id", $id);
         $stmt->execute();
     }
+
 
 }

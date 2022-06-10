@@ -15,6 +15,5 @@ if(isset($_POST['update'])){
     $bloodtype = $_POST['bloodtype_edit'];
     $update = new Patient;
     $update->updatePatientsInfo($id, $name, $email, $phone, $email, $medical_condition, $bloodtype);
-
     header('Location:../dashboard.php');
 }

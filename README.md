@@ -27,5 +27,8 @@ The final part of the crud is the "Delete" button
 ![Screenshot_17](https://user-images.githubusercontent.com/90925461/172976460-93010a78-1037-4282-9f7f-640312bcc41d.png)
 ![Screenshot_18](https://user-images.githubusercontent.com/90925461/172976476-e6ee3d84-60cb-4484-b442-3cdd87009eb1.png)
 In the navbar, we also have a search form where we can search patients by the email, for example:
-
+![Screenshot_21](https://user-images.githubusercontent.com/90925461/172976760-2e4b1569-62d1-4c9d-84e7-3e7200f0bdb3.png)
+and we can see the that user
+![Screenshot_20](https://user-images.githubusercontent.com/90925461/172976803-1e039717-61ad-402d-85d9-5a3ccf6cc91b.png)
+And lastly, after hitting "Log out", we are logged out and redirected back to the index page
 

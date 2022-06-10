@@ -1,8 +1,7 @@
 This is my Pabau clinic-app project
 
 When we open the app, we are shown the index page where we can see the navbar, and there we can either log in or sign up
-![Screenshot_1](https://user-images.githubusercontent.com/90925461/172972343-b79963d3-d353-4716-a091-12b3ae555277.png)
-
+![Screenshot_20](https://user-images.githubusercontent.com/90925461/172976989-14930d21-eecb-4dea-b234-0c8c23b60eb4.png)
 
 Firstly we will sign up 
 

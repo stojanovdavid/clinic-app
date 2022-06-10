@@ -10,8 +10,7 @@ Here are the creditentials:
 ![Screenshot_2](https://user-images.githubusercontent.com/90925461/172972470-84b71e3f-f3c1-4e2c-b20c-c887759d8a4b.png)
 
 and here is what the doctors table looks like after we signed up
-![Screenshot_1](https://user-images.githubusercontent.com/90925461/172975669-eb055aae-f8b2-4130-bbc2-a1043eab8cd0.png)
-
+![Screenshot_11](https://user-images.githubusercontent.com/90925461/172975921-56536f20-6dcf-4764-9e7c-de2ec2a62bb0.png)
 After signing up, we can see that we are given the option to log out cause we are signed and logged in, and aswell, we see the dashboard where the doctor can see, add, edit or delete his patients
 
 ![Screenshot_4](https://user-images.githubusercontent.com/90925461/172974006-94492e53-23f4-46fe-90a3-641eeb84cef0.png)

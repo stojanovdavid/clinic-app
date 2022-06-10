@@ -1,6 +1,5 @@
 This is my Pabau clinic-app project
 
-
 When we open the app, we are shown the index page where we can see the navbar, and there we can either log in or sign up
 ![Screenshot_1](https://user-images.githubusercontent.com/90925461/172972343-b79963d3-d353-4716-a091-12b3ae555277.png)
 
@@ -11,8 +10,7 @@ Here are the creditentials:
 ![Screenshot_2](https://user-images.githubusercontent.com/90925461/172972470-84b71e3f-f3c1-4e2c-b20c-c887759d8a4b.png)
 
 and here is what the doctors table looks like after we signed up
-![Screenshot_3](https://user-images.githubusercontent.com/90925461/172972560-b0488ab3-d8d1-4a44-a37b-68c784885bb1.png)
-
+![Screenshot_1](https://user-images.githubusercontent.com/90925461/172975669-eb055aae-f8b2-4130-bbc2-a1043eab8cd0.png)
 
 After signing up, we can see that we are given the option to log out cause we are signed and logged in, and aswell, we see the dashboard where the doctor can see, add, edit or delete his patients
 

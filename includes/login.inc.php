@@ -9,8 +9,10 @@ include('../classes/login.class.php');
 if(isset($_POST['submit'])){
     $email = $_POST['email'];
     $password = $_POST['password'];
-    $login = new Login($email, $password);
-
+    $hashed = password_hash($password, PASSWORD_DEFAULT);
+    $login = new Login($email, $hashed);
+    var_dump($login->ifLogged());
+    die();
     if($login->ifLogged() > 0){
         $_SESSION['is_logged'] = true;
     }else{

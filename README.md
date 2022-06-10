@@ -13,14 +13,11 @@ and here is what the doctors table looks like after we signed up
 ![Screenshot_11](https://user-images.githubusercontent.com/90925461/172975921-56536f20-6dcf-4764-9e7c-de2ec2a62bb0.png)
 After signing up, we can see that we are given the option to log out cause we are signed and logged in, and aswell, we see the dashboard where the doctor can see, add, edit or delete his patients
 
-![Screenshot_4](https://user-images.githubusercontent.com/90925461/172974006-94492e53-23f4-46fe-90a3-641eeb84cef0.png)
-
 Firstly, adding a patient
 After clicking on the button "Add new patient", we are given a modal with a form. When the doctor types the info about the patient and clicks the "Add patient" submit, the patient will be added in the table(this is done with ajax)
 
-![Screenshot_5](https://user-images.githubusercontent.com/90925461/172974386-42e5a447-685b-454a-8054-5d24be21d441.png)
-![Screenshot_6](https://user-images.githubusercontent.com/90925461/172974512-ff566e70-a092-4670-bc16-d0d4ba0ca390.png)
-
+![Screenshot_12](https://user-images.githubusercontent.com/90925461/172976014-34d32fc7-c6b8-4d2c-8162-47fb1f3ec80a.png)
+![Screenshot_13](https://user-images.githubusercontent.com/90925461/172976069-8f75e0f7-2ec0-40b4-871e-8f722c3af15b.png)
 Then, by just clicking the "info" button, we get the info about the patient 
 ![Screenshot_7](https://user-images.githubusercontent.com/90925461/172974722-0c4c18c8-ed2b-40e8-bd89-7aea63986084.png)
 
